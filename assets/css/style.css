@@ -319,14 +319,40 @@ footer {
 	}
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 640px) {
 
+	#contentArea {
+		margin-left: 0;
+	}
+
+	.header {
+		padding: 0;
+	}
+
+	#nameHeader {
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	#navBar {
+		width: 100%;
+		text-align: center;
+	}
+
+	#navBar1, #navBar2 {
+    padding: 0px 52px;
+	}
+
+	#navBar3 {
+    padding: 0 0 0 52px;
+	}
+	
 	#contentHead {
 		text-align: center;
 	}
 	
 	#mainContent, #sideBarHolder {   
-	    width: 600px;
+	    width: 595px;
    		margin: 15px;
 	}
 
@@ -351,35 +377,45 @@ footer {
 		width: 240px;
 	}
 
+/*Horizontal Banner Alignment*/
 	#banner1, #banner3, #banner5 {
-		left: 71px;
+		left: 52px;
 	}
 	
 	#banner2, #banner4 {
-		left: 356px;
+		left: 337px;
 	}
 
+/*Vertical Banner Alignment*/
 	#banner1, #banner2 {
-    	top: 250px;
+    	top: 288px;
     
 	}
 
 	#banner3, #banner4 {
-	    top: 394px;
+	    top: 432px;
 	}
 
 	#banner5 {
-	    top: 538px;
+	    top: 574px;
 	}
 }
 
 @media screen and (max-width: 375px) {
+	
+	#navBar1, #navBar2 {
+    padding: 0px 15px;
+	}
 
-	#navBar {
+	#navBar3 {
+    padding: 0 0 0 15px;
+	}
+
+/*	#navBar {
 		float: left;
     	padding-left: 0;
 	}
-
+*/
 	#contentArea {
 		margin: 0;
 	}
